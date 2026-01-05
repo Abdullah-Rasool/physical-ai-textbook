@@ -8,23 +8,31 @@ This textbook provides a comprehensive introduction to building intelligent huma
 
 - **Foundational Concepts**: What Physical AI is and how it differs from traditional AI
 - **System Architecture**: How ROS 2, simulation, and AI tooling work together
-- **Practical Integration**: Connecting perception, planning, and action in robotic systems
-- **Real-World Applications**: Building humanoid robots that interact with the physical environment
+- **Vision-Language-Action**: How modern VLA models enable language-driven robot control
+- **Complete Integration**: Building end-to-end humanoid AI architectures
 
 ## Course Structure
 
-The textbook is organized into 6 modules, progressing from foundational concepts to hands-on implementation:
+The textbook is organized into 6 modules, progressing from foundational concepts to complete system architecture:
 
-1. **Foundations of Physical AI & Embodied Intelligence** - Core concepts and theory
-2. **ROS 2 – The Robotic Nervous System** - Communication and system integration
-3. **Digital Twin – Gazebo & Unity Simulation** - Safe development and testing
-4. **NVIDIA Isaac – AI Robot Brain** - AI-powered perception and control
-5. **Vision-Language-Action Integration** (Iteration 3) - Multimodal AI for robots
-6. **Capstone: Building a Humanoid AI System** (Iteration 3) - End-to-end implementation
+| Module | Title | Focus |
+|--------|-------|-------|
+| **1** | Foundations of Physical AI | Core concepts: embodiment, perception-action loops |
+| **2** | ROS 2 – The Robotic Nervous System | Communication infrastructure for robotics |
+| **3** | Digital Twin – Simulation | Safe development with Gazebo, Unity, sim-to-real |
+| **4** | NVIDIA Isaac – AI Robot Brain | GPU-accelerated perception and AI inference |
+| **5** | Vision-Language-Action Integration | VLA models: language to robot action |
+| **6** | Capstone: End-to-End Architecture | Complete humanoid AI system design |
 
-## Current Status: Iteration 2
+## Current Status: Iteration 3 Complete
 
-**Modules 1-4** are currently available, providing conceptual mastery of Physical AI fundamentals. **Modules 5-6** will be added in Iteration 3 with hands-on tutorials and production-grade implementations.
+All six modules are now available, providing **conceptual mastery** of humanoid AI systems:
+
+- **Modules 1-4**: Physical AI foundations, ROS 2, simulation, and GPU-accelerated perception
+- **Module 5**: Vision-Language-Action models—the intelligence layer enabling language-driven robot behavior
+- **Module 6**: Capstone synthesis—how all components connect into complete humanoid AI architecture
+
+**Next iterations** will add hands-on tutorials, production deployment guides, and advanced topics including robot learning with Isaac Lab.
 
 ## Who This Is For
 
@@ -45,14 +53,24 @@ This textbook is designed for:
 ## How to Use This Textbook
 
 1. **Read sequentially**: Modules build on each other conceptually
-2. **Follow the code examples**: Illustrative snippets demonstrate key concepts
-3. **Visualize architectures**: Text-described diagrams help you understand system design
-4. **Complete each module**: Aim for 20-40 minutes of focused reading per module
-5. **Progress to advanced topics**: Iteration 3 will provide hands-on implementation
+2. **Follow the diagrams**: Text-described architecture diagrams illustrate system design
+3. **Understand connections**: Each module references prior concepts—follow the cross-references
+4. **Complete each module**: Aim for 30-40 minutes of focused reading per module
+5. **Synthesize in Module 6**: The Capstone module ties everything together
+
+## Learning Outcomes
+
+After completing all six modules, you will be able to:
+
+- **Explain** how humanoid AI systems perceive, reason, and act
+- **Describe** the role of each architectural layer (perception, communication, intelligence, control)
+- **Trace** data flow from human language command through system to robot action
+- **Compare** VLA architectural approaches and articulate tradeoffs
+- **Design** (conceptually) end-to-end humanoid AI architectures
 
 ## Let's Begin!
 
-Start with **Module 1: Foundations of Physical AI & Embodied Intelligence** to build your understanding of what makes Physical AI unique.
+Start with **[Module 1: Foundations of Physical AI & Embodied Intelligence](./01-foundations/index.md)** to build your conceptual foundation for humanoid AI systems.
 
 ---
 
