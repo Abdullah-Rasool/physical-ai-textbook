@@ -202,4 +202,4 @@ Advanced techniques for maximizing Isaac performance on both workstations (devel
 
 **[Return to Module Index →](./index.md)**
 
-**[Continue to Module 5: Vision-Language-Action Models (Coming in Iteration 3) →](../05-vla/placeholder.md)**
+**[Continue to Module 5: Vision-Language-Action Models →](../05-vla/index.md)**
